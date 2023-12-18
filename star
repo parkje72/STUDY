@@ -13,10 +13,10 @@ func main() {
 	starCount = 1
 
 	for i := 0; i < lineCount; i++ {
-		for i := 0; i < starCount; i++ {
+		for j := 0; j < starCount; j++ {
 			fmt.Print("*")
 		}
-		for i := 0; i < spaceCount; i++ {
+		for j := 0; j < spaceCount; j++ {
 			fmt.Print(" ")
 		}
 		if i < lineCount/2-1 { //1 ~ 4 줄까지
@@ -38,13 +38,13 @@ func main() {
 
 	for i := 0; i < lineCount; i++ {
 		//공백 + 별 + 공백
-		for i := 0; i < spaceCount; i++ {
+		for j := 0; j < spaceCount; j++ {
 			fmt.Print(" ")
 		}
-		for i := 0; i < starCount; i++ {
+		for j := 0; j < starCount; j++ {
 			fmt.Print("*")
 		}
-		for i := 0; i < spaceCount; i++ {
+		for j := 0; j < spaceCount; j++ {
 			fmt.Print(" ")
 		}
 		if i < lineCount/2-1 {
@@ -66,13 +66,13 @@ func main() {
 
 	for i := 0; i < lineCount; i++ {
 		//공백 + 별 + 공백
-		for i := 0; i < spaceCount; i++ {
+		for j := 0; j < spaceCount; j++ {
 			fmt.Print(" ")
 		}
-		for i := 0; i < starCount; i++ {
+		for j := 0; j < starCount; j++ {
 			fmt.Print("*")
 		}
-		for i := 0; i < spaceCount; i++ {
+		for j := 0; j < spaceCount; j++ {
 			fmt.Print(" ")
 		}
 		if i < lineCount/2 {
